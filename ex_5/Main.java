@@ -27,8 +27,10 @@ public class Main {
     private static void exercise1() {
         System.out.println("Exercise 1:");
         // Write your code here
+        //Variabile con valore 11
         int numvar = 10 + 1;
         System.out.println(numvar);
+        //Ho assegnato alla variabile il valore della precedente meno uno
         numvar = numvar - 1;
         System.out.println(numvar);
     }
@@ -42,8 +44,10 @@ public class Main {
     private static void exercise2() {
         System.out.println("\nExercise 2:");
         // Write your code here
+        //Variabile con valore 2.5 moltiplicata per due
         double doubVar = 2.5 * 2;
         System.out.println(doubVar);
+        //Altra variabile con lo stesso valore della variabile precedente diviso due
         double anotherDoub = doubVar / 2;
         System.out.println(anotherDoub);
     }
@@ -63,7 +67,10 @@ public class Main {
     private static void exercise3() {
         System.out.println("\nExercise 3:");
         // Write your code here
+        //Variabile con valore zero che rappresenta la scala celsius
         double celsius = 0;
+        //Variabile con valore di celsius moltiplicato per 1.8 con addizione 32
+        //Seguendo le regole per il calcolo delle scale.
         double fahrenheit = celsius * 1.8 + 32;
         System.out.print(celsius + " gradi Celsius equivalgono a: ");
         System.out.print(fahrenheit + " gradi Farenheit");
@@ -79,7 +86,9 @@ public class Main {
     private static void exercise4Bonus() {
         System.out.println("\nExercise 4:");
         // Write your code here
+        //Variabile con numero intero dieci
         int age = 10;
+        //Ciclo for che tramite un incremento riusciamo a cambiare il valore della variabile di base
         for(age = 0; age < 15; age++);
         System.out.println(age);
     }
@@ -98,12 +107,18 @@ public class Main {
     private static void exercise5Bonus() {
         System.out.println("\nExercise 5:");
         // Write your code here
+        //Variabile che contiene l'età con valore cinquanta
         int age = 50;
+        //Grazie a -= riusciamo a sottrarre 50 dal valore corrente di age
         age -= 50;
         System.out.println(age);
+
         int secondAge = 50;
+        //viene sottratto 25 dal valore di secondAge utilizzando l'operatore di sottrazione -
+        //e il risultato (che è 25) viene assegnato nuovamente alla variabile secondAge.
         secondAge = secondAge - 25;
         secondAge = secondAge - 25;
+        //assegna esplicitamente il valore 0 alla variabile secondAge, sovrascrivendo qualsiasi valore precedente.
         secondAge = secondAge = 0;
         System.out.println(secondAge);
     }
