@@ -1,6 +1,7 @@
-package javabasics._3;
+package javabasics._2;
 
 public class Main {
+    //Run this like before to execute all the exercises
     public static void main(String[] args) {
         exercise1();
         exercise2();
@@ -8,57 +9,36 @@ public class Main {
     }
 
     /**
-     * 1: print out your initials using System.out.print and then a char literal,
-     * i.e. 'a', 'b', 'c'. You will need multiple print statements
+     * 1: Change (my name) to your name
      */
-    private static void exercise1() {
-        System.out.println("Exercise 1:");
-        // Write your code here
-        System.out.print("G");
-        System.out.print("I");
-        System.out.print("G");
-        System.out.print("I");
-
+    public static void exercise1() {
+        System.out.println("Exercise 1: ");
+        System.out.println("Hello Giovanni!"); //<--- Edit this line
     }
 
     /**
-     * 2: Print out your age as an int literal, i.e. 28, then print whether or not you've
-     * had lunch today as a boolean literal i.e. true, false, then print the price of
-     * your lunch as a double, i.e. 4.99
+     * 2: Add a new println statement underneath this and put your name in it,
+     * this result should look exactly the same as in exercise one if done
+     * correctly!
      */
-    private static void exercise2() {
-        System.out.println("\nExercise 2:");
-        // Write your code here
-        int age = 24;
-        System.out.println("La mia età è di: " + age + " anni");
-        boolean hadLunch = true;
-        System.out.println("Hai mangiato Hamburger oggi? " + hadLunch);
-        double lunchCost = 4.99;
-        System.out.println("Il costo del pranzo di oggi è di: " + lunchCost);
-
-        //Dopo aver svolto l'esercizio 2, e passando al successivo mi sono reso conto di aver
-        //fatto i passaggi in modo corretto nel passaggio precedente.
-
+    public static void exercise2() {
+        System.out.println("\nExercise 2: ");
+        System.out.print("Hello");
+        //Write code underneath this
+        System.out.println(" Giovanni!");
+        //Write code above this
     }
 
     /**
-     * 3: Complete exercise 2, but store the values in a variable.
-     * And then print out the variable.
-     *
-     * i.e.
-     * char favouriteLetter = 'g';
-     * System.out.print("My favourite letter=");
-     * System.out.println(favouriteLetter)
+     * 3: Edit this code so when it 'prints' to the console, it all appears on the same line!
+     * Expected print = 'This should all appear on the same line'
      */
-    private static void exercise3() {
-        System.out.println("\nExercise 3:");
-        // Write your code here
-        int age = 24;
-        System.out.println("La mia età è di: " + age + " anni");
-        boolean hadLunch = true;
-        System.out.println("Hai mangiato Hamburger oggi? " + hadLunch);
-        double lunchCost = 4.99;
-        System.out.println("Il costo del pranzo di oggi è di: " + lunchCost);
-
+    public static void exercise3() {
+        System.out.println("\nExercise 3: ");
+        // Change the code below here
+        System.out.print("This should ");
+        System.out.print("all appear ");
+        System.out.print("on the same line");
+        // and above here
     }
 }
