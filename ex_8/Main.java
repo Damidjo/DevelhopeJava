@@ -82,7 +82,6 @@ public class Main {
         System.out.println("\nExercise 4:");
         String startStr = "5 ";
         // Write your code here
-        //DISCLAIMER: HO PROVATO QUASI TUTTO QUELLO CHE AVEVO IN MENTE, MA NON RIESCO AD AVERE 288.0
         int convertedNumber = Integer.parseInt(startStr.trim());
         System.out.println("Converted String to Integer: " + convertedNumber);
         convertedNumber *= 2;
