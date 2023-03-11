@@ -1,4 +1,4 @@
-package ex_10;
+package ex__10;
 
 public class Main {
     public static void main(String[] args) {
@@ -105,7 +105,7 @@ public class Main {
         double percentageScore = ourTestScore / maxTestScore * 100;
 
         if (isTestRetry && percentageScore > 7) {
-            percentageScore = 7;
+            percentageScore = 80;
         }
         if (percentageScore >= 90) {
             System.out.println("A");

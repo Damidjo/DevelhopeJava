@@ -31,7 +31,7 @@ public class Main {
         String middleName = "(Gigi)";
         String lastName = "(D'amico)";
 
-        System.out.println(firstName.toUpperCase() + " " + middleName + " " + lastName.toUpperCase()); // <--- Edit this line
+        System.out.println(firstName.toUpperCase() + " " + middleName.toLowerCase() + " " + lastName.toUpperCase()); // <--- Edit this line
     }
 
 
