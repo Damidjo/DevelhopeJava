@@ -36,7 +36,7 @@ public class Main {
     private static void exercise2() {
         System.out.println("\nExercise 2a:");
         char ourChar = 'a';
-        String ourCharString = Integer.toString(ourChar).toUpperCase(); // <--- Change this line
+        String ourCharString = Character.toString(ourChar).toUpperCase(); // <--- Change this line
         //charAt restituisce il carattere alla posizione specificata in una stringa
         System.out.println(ourCharString.charAt(0));
 
